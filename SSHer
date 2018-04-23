@@ -1,0 +1,11 @@
+#! /bin/bash
+echo "SSHer by Raid3r"
+
+echo "Enter login. Ex: root@IPhere :"
+read Login
+
+echo "Enter SSH Port :"
+
+read port
+
+ssh $Login -p $port
